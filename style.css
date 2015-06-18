@@ -1,3 +1,15 @@
+/*
+Theme Name: The Park Restaurant
+Theme URI: https://github.com/jacobarriola/thepark
+Author: Home Brew Services
+Author URI: http://gethomebrew.com
+Description: Description
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+*/
 body {font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 400; color: #333333; background: #f5f5f5 url('img/background.png') repeat; padding-top: 20px; font-size: 18px;}
 .body-text {line-height: 1.6875; color: #555;}
 .body-text p {margin-bottom: 40px;}
@@ -7,11 +19,11 @@ a {color: #ef7233; text-decoration: none;}
 form input {padding: 3px; border: 0px solid transparent border-radius: 3px;}
 
 .pagination-button {
-	background-color: #ef7233; 
-	color: #fff; 
-	padding: 7px 10px; 
-	border: 0px solid transparent; 
-	border-radius: 4px; 
+	background-color: #ef7233;
+	color: #fff;
+	padding: 7px 10px;
+	border: 0px solid transparent;
+	border-radius: 4px;
 	font-size: .8em;
 }
 
@@ -42,12 +54,12 @@ h3 {
 
 /**** Header ****/
 .top-navigation h1 {
-	display: block; 
-	background: #f5f5f5 url('img/logo.png') no-repeat; 
-	background-size: 192px 99px; 
-	width: 192px; 
-	height: 100px; 
-	text-indent: -9999px; 
+	display: block;
+	background: #f5f5f5 url('img/logo.png') no-repeat;
+	background-size: 192px 99px;
+	width: 192px;
+	height: 100px;
+	text-indent: -9999px;
 	float: left;
 }
 
@@ -58,10 +70,10 @@ h3 {
 
 
 .nav a {
-	font-family: 'Enriqueta', serif; 
-	font-size: 18px; 
+	font-family: 'Enriqueta', serif;
+	font-size: 18px;
 	text-transform: uppercase;
-	font-weight: bold; 
+	font-weight: bold;
 	color: #333333;
 }
 
@@ -85,7 +97,7 @@ h3 {
 .menu ul {
 	position: absolute;
 	width: 168px;
-	margin-top: 0;	
+	margin-top: 0;
 	list-style: none;
 }
 
@@ -124,17 +136,17 @@ h3 {
 .sec-nav, .weekly-specials, .featured-bpost-date, .featured-bpost-byline, .tuesday-header, .week-calendar-header, .weekend-special-header {font-family: 'Enriqueta', serif; font-weight: normal;}
 
 .tag-line {
-	font-family: 'Enriqueta', sans; 
-	font-size: 36px; 
-	font-weight: normal; 
-	list-style: none; 
-	position: absolute; 
-	top: 20px; 
-	left: -30px; 
-	background: #74c058; 
-	color: #ffffff; 
-	padding: 15px 25px 15px 25px; 
-	width: 300px; 
+	font-family: 'Enriqueta', sans;
+	font-size: 36px;
+	font-weight: normal;
+	list-style: none;
+	position: absolute;
+	top: 20px;
+	left: -30px;
+	background: #74c058;
+	color: #ffffff;
+	padding: 15px 25px 15px 25px;
+	width: 300px;
 	}
 .tag-line p {margin: 12px 0;}
 
@@ -144,7 +156,7 @@ h3 {
 
 .featured-bpost {
 	height: 269px;
-	background: #ffffff; 
+	background: #ffffff;
 	padding: 170px 23px 20px 23px;
 	}
 .featured-bpost span {font-size: 14px; line-height: 1.4;}
@@ -162,10 +174,10 @@ h3 {
 }
 
 .sec-nav {
-	font-size: 18px; 
-	list-style: none; 
-	text-transform: uppercase; 
-	margin-top: 80px; 
+	font-size: 18px;
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -184,7 +196,7 @@ h3 {
 	}
 
 .menus li {
-	float: left; 
+	float: left;
 	width: 180px;
 	}
 
@@ -199,7 +211,7 @@ h3 {
 
 
 .book-table {
-	background: #ef7233; 
+	background: #ef7233;
 	color: #ffffff;
 }
 
@@ -213,7 +225,7 @@ h3 {
 }
 
 .book-table li {
-	float: left; 
+	float: left;
 	width: 100%;
 }
 
@@ -235,23 +247,23 @@ h3 {
 }
 
 .calendar {
-	background: #f0eeee; 
+	background: #f0eeee;
 	font-size: 12px;
-	width: 100%;	
+	width: 100%;
 	}
 
 .calendar h3 {
-	font-size: 18px; 
+	font-size: 18px;
 	font-weight: normal;
 	}
 
 .week-calendar-header {
-	background: #59afcf; 
+	background: #59afcf;
 	color: #ffffff;
 	}
 
 .tuesday-header {
-	background: #74c058; 
+	background: #74c058;
 	color: #ffffff;
 	}
 
@@ -260,7 +272,7 @@ h3 {
 	}
 
 .calendar-icon {
-	margin: 0 30px 0 20px; 
+	margin: 0 30px 0 20px;
 	vertical-align: middle;
 	}
 
@@ -270,7 +282,7 @@ h3 {
 	}
 
 .toprow td {
-	padding: 12px 15px 20px 15px; 
+	padding: 12px 15px 20px 15px;
 	border-bottom: 1px dotted #8d8d8d;
 	}
 
@@ -294,29 +306,29 @@ h3 {
 .contact-icon {
 	position: absolute;
 	left: 0px;
-	top: 7px; 
+	top: 7px;
 }
 
 .phone-icon {
-	width: 27px; 
+	width: 27px;
 	height: 20px;
 	background: url('img/phone.png') no-repeat;
 }
 
 .mail-icon {
-	width: 24px; 
+	width: 24px;
 	height: 17px;
 	background: url('img/mail.png') no-repeat;
 }
 
 .web-icon {
-	width: 31px; 
+	width: 31px;
 	height: 26px;
 	background: url('img/web.png') no-repeat;
 }
 
 .map-icon {
-	width: 21px; 
+	width: 21px;
 	height: 31px;
 	background: url('img/map.png') no-repeat;
 }
@@ -350,29 +362,29 @@ h3 {
 }
 
 .blog-page h1 {
-	display: block; 
-	background: #f5f5f5 url('img/blog.png') no-repeat; 
-	background-size: 173px 41px; 
-	width: 173px; height: 41px; 
-	text-indent: -9999px; 
-	float: left; 
+	display: block;
+	background: #f5f5f5 url('img/blog.png') no-repeat;
+	background-size: 173px 41px;
+	width: 173px; height: 41px;
+	text-indent: -9999px;
+	float: left;
 }
 
 .byline {
-	font-size: 12px; 
-	font-family: 'Enriqueta', sans; 
+	font-size: 12px;
+	font-family: 'Enriqueta', sans;
 	margin-bottom: 30px;
 }
 
 .latest-post span {
-	font-size: 18px; 
-	margin-bottom: 30px; 
-	color: #555; 
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #555;
 	line-height: 1.6875;
 }
 
 .latest-post h2 {
-	margin: 10px 0 -5px 0; 
+	margin: 10px 0 -5px 0;
 }
 
 .latest-post h2 a {
@@ -384,7 +396,7 @@ h3 {
 }
 
 .blog-read-more {
-	color: #59afcf; 
+	color: #59afcf;
 	text-decoration: underline;
 	font-size: 16px;
 }
@@ -395,16 +407,16 @@ h3 {
 
 
 /*  ==================================
-    Blog Single Post Page 
+    Blog Single Post Page
 	================================== */
 
 .blog-text h2,
-.blog-text h3, 
-.blog-text h4, 
-.blog-text h5, 
+.blog-text h3,
+.blog-text h4,
+.blog-text h5,
 .blog-text h6 {
 	margin-top: 50px;
-} 
+}
 
 .blog-content {
 	background-color: #ffffff;
@@ -428,7 +440,7 @@ h3 {
 
 .blog-text {
 	margin-top: 40px;
-}  
+}
 
 
 .blog-sidebar p {
@@ -479,7 +491,7 @@ input {
 
 
 /*  ==================================
-    Comments 
+    Comments
 	================================== */
 
 .comments-title {
@@ -516,14 +528,14 @@ input {
 
 
 /*  ==================================
-    Footer 
+    Footer
 	================================== */
 
 footer {
-	background: #74c058; 
-	margin-top: 107px; 
-	padding: 42px 0; 
-	color: #444444; 
+	background: #74c058;
+	margin-top: 107px;
+	padding: 42px 0;
+	color: #444444;
 	font-size: 12px;
 	font-weight: 600;
 }
