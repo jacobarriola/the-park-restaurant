@@ -27,25 +27,25 @@
 
 			</div>
 
-			<?php wp_reset_query(); ?>	
+			<?php wp_reset_query(); ?>
 
 		</div>
 
 	</div>
 
 	<div class="grid_7 omega">
-		<?php easyrotator_display_rotator('erc_21_1379221782'); ?>
+		<?php easyrotator_display_rotator('erc_65_1434593038'); ?>
 	</div>
 
 
 
 		<!--begin Secondary Navigation-->
-	
+
 
 			<div class="sec-nav grid_12">
 
 				<div class="grid_8 menus">
-				
+
 					<ul>
 						<a href="http://www.thepark1400sunset.com/dinner-menu/" title="The Park Dinner Menu"><li>Dinner Menu</li></a>
 						<a href="http://www.thepark1400sunset.com/lunch-menu/" title="The Park Lunch Menu"><li>Lunch Menu</li></a>
@@ -53,7 +53,7 @@
 					</ul>
 
 				</div>
-				
+
 				<div class="grid_1">
 
 					&nbsp;
@@ -63,18 +63,18 @@
 				<div class="grid_3 book-table omega">
 
 					<ul>
-							<li><a href="http://www.opentable.com/the-park-restaurant-reservations-los-angeles?rid=95863&restref=95863" title="Book a table at The Park using Open Table">Book a Table</a></li>
+							<li><a href="https://www.seatme.yelp.com/restaurants/10331f54-1d86-4c23-8c72-dd6eea01fe75/" title="Book a table at The Park using Yelp">Book a Table</a></li>
 					</ul>
 
 				</div>
 
 			</div><!--end Secondary Navigation-->
 
-	
+
 
 		<div class="grid_3">
 
-			<img src="img/joshcover.png" alt="Chef Josh of The Park Restaurant" title="Chef Josh" class="josh-image" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/joshcover.png" alt="Chef Josh of The Park Restaurant" title="Chef Josh" class="josh-image" />
 
 		</div>
 
@@ -96,10 +96,10 @@
 			<table class="week-calendar-table calendar">
 				<tbody>
 					<tr class="week-calendar-header">
-						<td><img src="img/lantern.png" title="The Weekly Rundown" alt="fork and knife icon" class="calendar-icon"></td>
+						<td><img src="<?php bloginfo('stylesheet_directory'); ?>/img/lantern.png" title="The Weekly Rundown" alt="fork and knife icon" class="calendar-icon"></td>
 						<td>
 							<h3>The Weekly Rundown</h3>
-						</td>	
+						</td>
 					</tr>
 
 					<tr>
@@ -153,9 +153,9 @@
 			<table class="tuesday-table calendar">
 				<tbody>
 					<tr class="tuesday-header">
-						<td><img src="img/key.png" title="Speakeasy Tuesday" alt="speakeasy Tuesday icon" class="calendar-icon"></td>
+						<td><img src="<?php bloginfo('stylesheet_directory'); ?>/img/key.png" title="Speakeasy Tuesday" alt="speakeasy Tuesday icon" class="calendar-icon"></td>
 						<td><h3>Speakeasy Tuesday</h3></td>
-						<td><span>[</span>3 courses for $15<span>]</span></td>
+						<td><span>[</span>3 courses for $20<span>]</span></td>
 					</tr>
 
 					<tr class="tuesday-row">
@@ -190,7 +190,7 @@
 			<table class="weekend-special-table calendar">
 				<tbody>
 					<tr class="tuesday-header">
-						<td><img src="img/cal.png" title="Weekend Special" alt="weekend special icon" class="calendar-icon"></td>
+						<td><img src="<?php bloginfo('stylesheet_directory'); ?>/img/cal.png" title="Weekend Special" alt="weekend special icon" class="calendar-icon"></td>
 						<td><h3>Weekend Special</h3>
 					</tr>
 
@@ -204,7 +204,7 @@
 						<td class="tuesday-description"><?php the_field('entree'); ?></td>
 					</tr>
 				</tbody>
-			</table><!--end Weekend Calendar-->	
+			</table><!--end Weekend Calendar-->
 		</div>
 <!--Begin Footer-->
 <?php get_footer(); ?>
