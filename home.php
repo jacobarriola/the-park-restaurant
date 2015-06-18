@@ -14,18 +14,37 @@
 				<p>A place to relax and get nourished</p>
 
 			</div>
+			<?php
 
-			<?php query_posts("posts_per_page=1"); the_post(); ?>
+            // Arguments for $home_latest_post
+            $args = array(
+                'posts_per_page'    => 1,
+                'post_type'         => 'post',
+                );
 
-			<div class="featured-bpost">
+            // set var for WP_Query
+						$home_latest_post = new WP_Query( $args );
 
-				<p class="featured-bpost-date"><?php the_date(); ?></p>
-				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-				<p class="featured-bpost-byline">by:  <?php the_author(); ?></p>
-				<span style="featured-bpost-body"><?php the_excerpt(); ?></span>
-				<a href="<?php the_permalink(); ?>" class="featured-bpost-more">Read More &gt;&gt;</a>
+        ?>
 
-			</div>
+				<?php if ( have_posts() ) : while ( $home_latest_post->have_posts() ) : $home_latest_post->the_post(); ?>
+					<div class="featured-bpost">
+
+						<p class="featured-bpost-date"><?php the_date(); ?></p>
+						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						<p class="featured-bpost-byline">by:  <?php the_author(); ?></p>
+						<span style="featured-bpost-body"><?php the_excerpt(); ?></span>
+						<a href="<?php the_permalink(); ?>" class="featured-bpost-more">Read More &gt;&gt;</a>
+
+					</div>
+
+				<?php endwhile; ?>
+					
+				<?php else: ?>
+					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'thepark' ); ?></p>
+					<?php get_search_form(); ?>
+				<?php endif; ?>
+
 
 			<?php wp_reset_query(); ?>
 
